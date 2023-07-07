@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title >Login</title>
+        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+   
+   
+    </head>
+
+    <body style="background-image: url(bungioheo.jpg);background-size: cover;">
+       
+        <div class="container" >
+            <div style="margin-top: 10%; margin-right: 10%; float: right; width: 350px; background-color: #fff; border-radius: 10px;"> 
+                <div style="padding: 20px 20px 10px 20px;">
+                    <img width="300px" height="200px" src="http://amthucvietnam.com.vn/wp-content/uploads/2018/01/logo-amthucvietnam2.png"  alt="" height="200px">
+                </div>
+                <p style="text-align:center; color: blue ; font-weight: 600;font-size: 20px;" >ĐĂNG NHẬP HỆ THỐNG</p>
+                <form method="post" style="margin: 0 auto; padding: 10px 20px;" name="F"> 
+                   
+                    <label for style="font-size: 20px;font-weight: bold;">Tài Khoản</label><br>
+                    
+                    <input style="width:98%; background-color: #f5f5f5;font-size: 25px;" type="email" name="Email" id="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+                    <span id="EmailError" style="color:red;"></span>
+                    <br><br>
+                    <label for style="font-size:20px;font-weight: bold">Password</label><br>
+                    <input style="width:98%; background-color: #f5f5f5; font-size: 25px;" type="password" name="Pass" id="Pass">
+                    <span style="color: red;" id="PassError"></span>
+                    <br><br>
+                    <input class="btn-sub" type="button" value="ĐĂNG NHẬP" onclick="kiemtra();" style="width:100%; cursor: pointer; background: #668cff; color: #fff;font-size: 20px;">
+                </form>
+            </div> 
+        </div>
+        <script>
+            function kiemtra(){
+                var flag = true;
+                //email
+                var Email = document.getElementById("Email").value.trim();
+                var EmailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+                if(!EmailFormat.test(Email) || Email.length < 10)
+                {
+                    flag=false;
+                    document.getElementById("EmailError").innerHTML = "Xin hay kiem tra lai Email!";
+                }
+                //pass
+                var Pass = document.getElementById("Pass").value.trim();
+                if(Pass.length < 10)
+                {
+                    flag=false;
+                    document.getElementById("PassError").innerHTML = "Kiem tra lai pass phai tu 10 ky tu";
+                }
+                    sessionStorage.email_user = document.forms["F"]["Email"].value;
+        if(flag==true)
+                    {
+                        location.assign("./index.html");
+                    }
+            }
+        </script>
+    </body>
+</html>

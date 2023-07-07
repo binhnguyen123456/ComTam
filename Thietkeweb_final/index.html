@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@100&display=swap');
+</style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>
+        Quán Cơm Tấm
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assest/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="Home"></div>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="http://amthucvietnam.com.vn/wp-content/uploads/2018/01/logo-amthucvietnam2.png" width="200px"> </img>
+                </div>
+                <nav>
+                    <ul>
+                        <div class="navigation">
+                            <ul id="nav">
+                                <li class="list">
+                                    <a href="#Home">
+                                        <span class="icon">
+                                            <ion-icon name="home-outline"></ion-icon>
+                                        </span>
+                                        <span class="text">Trang Chủ</span>
+                                    </a> 
+                                </li>
+                                <li class="list">
+                                    <a href="#kham-pha">
+                                        <span class="icon">
+                                            <ion-icon name="fast-food-outline"></ion-icon>
+                                        </span>
+                                        <span class="text">Món ăn</span>  
+                                    </a>
+                                   
+                                </li>
+                                <li class="list">
+                                    <a href="#Thanh-Lap">
+                                        <span class="icon">
+                                            <ion-icon name="information-outline"></ion-icon>
+                                        </span>
+                                        
+                                        <span class="text">Giới thiệu</span>
+                                    </a>
+                                   
+                                </li>
+                                <li class="list">
+                                    <a href="#link-footer">
+                                        <span class="icon">
+                                            <ion-icon name="clipboard-outline"></ion-icon>
+                                        </span>
+                                       
+                                        <span class="text">Hợp tác</span>
+                                    </a>
+                                   
+                                </li>
+                                <li class="list">
+                                    <a href="#menu-search">
+                                        <span class="icon">
+                                            <ion-icon name="menu-outline"></ion-icon>
+                                        </span>
+                                        <span class="text">Thực Đơn</span>
+                                    </a>
+                                   
+                                </li>
+                                <li class="list">
+                                    <a href="login.html">
+                                        <span class="icon">
+                                            <ion-icon name="person-circle-outline"></ion-icon>
+                                        </span>
+                                       
+                                        <span class="text">Tài khoản</span>
+                                    </a>
+                                   
+                                </li>
+                                <li class="list">
+                                    <a href="sell.html">
+                                       <span class="icon">
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                       </span>
+                                       <span class="text">Mua hàng</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                    
+                    </ul>
+                </nav>
+               
+            </div>
+            <div id="MonAn">
+                <div class="row">
+                    <div class="col-2">
+                        <h1 STYLE="font-family: 'Pacifico', cursive">ẨM THỰC VIỆT NAM</h1>    
+                        <p style="color: white">Ẩm thực Việt Nam là cách gọi của phương thức chế biến món ăn, nguyên lý pha trộn gia vị và những thói quen ăn uống nói chung của cộng đồng người Việt và các dân tộc thuộc Việt trên đất nước Việt Nam. Tuy có ít nhiều sự khác biệt, ẩm thực Việt Nam vẫn bao hàm ý nghĩa khái quát nhất để chỉ tất cả những món ăn phổ biến trong cộng đồng các dân tộc thiểu số nhưng đã tương đối phổ thông trong cộng đồng người Việt.</p>
+                        <a href="#kham-pha" class="btn">Khám Phá &#8594</a>
+                    </div>
+                    <div class="col-2"> 
+                        <img src="http://www.clipartbest.com/cliparts/aiq/Ldb/aiqLdbbqT.png" width="1500px">
+                    </div>
+                </div>
+            </div>
+            
+        </div>  
+    </div>
+    <div class="khungdathang">
+        <div class="khungdathang2">
+        <h2> ĐẶT HÀNG</h2>
+        <p >Vui lòng chọn khu vực bạn muốn đặt hàng</p>
+        </div>
+      <div class="quanlon">
+            <select class="quannho">
+                    <option value="default">Chọn quận</option>
+                    
+                    <option value="quan-1">Quận 1</option>
+                    
+                    <option value="quan-2">Quận 2</option>
+                    
+                    <option value="quan-3">Quận 3</option>
+                    
+                    <option value="quan-5">Quận 5</option>
+                    
+                    <option value="quan-6">Quận 6</option>
+                    
+                    <option value="quan-7">Quận 7</option>
+                    
+                    <option value="quan-9">Quận 9</option>
+                    
+                    <option value="quan-10">Quận 10</option>
+                    
+                    <option value="quan-12">Quận 12</option>
+                    
+                    <option value="quan-binh-thanh">Quận Bình Thạnh</option>
+                    
+                    <option value="quan-go-vap">Quận Gò Vấp</option>
+                    
+                    <option value="quan-phu-nhuan">Quận Phú Nhuận</option>
+                    
+                    <option value="quan-tan-binh">Quận Tân Bình</option>
+                    
+                    <option value="quan-tan-phu">Quận Tân Phú</option>
+                    
+                    <option value="quan-thu-duc">Quận Thủ Đức</option>
+                    
+                    <option value="quan-binh-tan">Quận Bình Tân</option>
+            
+            </select>
+            <select class="thanhpho">                                                                                                                                                                                       
+                <option value="tphcm">TP. HỒ CHÍ MÌNH</option>
+            
+            </select>
+          <div class="dathang">
+              <a href="sell.html" style="color: yellow">ĐẶT HÀNG NGAY</a>
+          </div>
+        
+        </div>
+    </div>
+    <div class="categories">
+            <div id="kham-pha">
+                <h2 class="title" >Các &nbsp; Loại &nbsp;Cơm</h2>
+            </div>
+           
+        <div class="small-container">
+            <div class="row">
+                
+                    <div class="col-4">
+                        <a href="comga.html">
+                            <img src="https://comtamtuonghan.vn/wp-content/uploads/2020/09/com-tam-dui-ga-quay-nuong-1.png" height=" 250px">
+                        <div id="kham-pha">
+                        <h4>Cơm Gà </h4>
+                        </div>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <p>(1520)</p>
+                        </div>
+                        <p>45.000 VND</p>
+                        </a>
+                        
+                    </div>
+                
+               
+                <div class="col-4">
+                    <a href="com.html">
+                        <img src="https://comtamtuonghan.vn/wp-content/uploads/2020/09/com-tam-dac-biet-6-mon.png" height=" 250px">
+                        <h4>Cơm Sườn Bì Chả </h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <p>(1020)</p>
+                        </div>
+                        <p>50.000 VND</p>
+                    </a>
+                  
+                </div>
+                <div class="col-4">
+                    <a href="comtambinhdan.html">
+                        <img src="https://comtamtuonghan.vn/wp-content/uploads/2020/09/com-tam-ga-xao-nam-1.png" height="250px">
+                        <h4>Cơm Nhà Dân Giả</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <p>(985)</p>
+                        </div>
+                        <p>60.000 VND</p>
+                    </a>
+                  
+                </div>
+              
+
+                <div class="col-4">
+                    <a href="comga.html">
+                        <img src="https://comtamtuonghan.vn/wp-content/uploads/2020/09/com-tam-chien-xa-xiu.png" height=" 250px">
+                    <div id="kham-pha">
+                    <h4>Cơm Thịt Xá Xíu </h4>
+                    </div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1520)</p>
+                    </div>
+                    <p>45.000 VND</p>
+                    </a>
+                    
+                </div>
+                <div class="col-4">
+                    <a href="comga.html">
+                        <img src="https://comtamtuonghan.vn/wp-content/uploads/2020/09/com-tam-nieu-bo-dao-tieu-hai-mat-chay.jpg" height=" 250px">
+                    <div id="kham-pha">
+                    <h4>Cơm tấm niêu bò đảo tiêu 2 mặt cháy </h4>
+                    </div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1020)</p>
+                    </div>
+                    <p>55.000 VND</p>
+                    </a>
+                    
+                </div>
+                <div class="col-4">
+                    <a href="comga.html">
+                        <img src="http://bizweb.dktcdn.net/thumb/grande/100/066/182/products/com-chien-hai-san-nha-hang-thuan-kieu.png?v=1460711261647" height=" 250px">
+                    <div id="kham-pha">
+                    <h4>Cơm Chiên Hải Sản </h4>
+                    </div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1720)</p>
+                    </div>
+                    <p>65.000 VND</p>
+                    </a>
+                    
+                </div>
+                <div class="col-4">
+                    <a href="comga.html">
+                        <img src="https://phapluatnet.nguoiduatin.vn/Uploads/images/thit-heo-quay3.jpg" height=" 250px">
+                    <div id="kham-pha">
+                    <h4>Cơm Heo Quay </h4>
+                    </div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1420)</p>
+                    </div>
+                    <p>55.000 VND</p>
+                    </a>
+                    
+                </div>
+                <div class="col-4">
+                    <a href="comga.html">
+                        <img src="https://comtamtuonghan.vn/wp-content/uploads/2020/09/com-tam-chao-suon-de-nhat.png" height=" 250px">
+                    <div id="kham-pha">
+                    <h4>Cơm tấm chảo sườn đệ nhất</h4>
+                    </div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1120)</p>
+                    </div>
+                    <p>100.000 VND</p>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="small-container">
+            <h2 class="title"> Các &nbsp; Loại  &nbsp;Bún</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="bunbohue.html">
+                    <img src="https://halotravel.vn/wp-content/uploads/2021/01/bunbo9.jpg" height="250px">
+                    <h4>Bún Bò Huế</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(790)</p>
+                    </div>
+                    <p>40.000 VND</p>
+                </a>
+               
+            </div>
+            <div class="col-4">
+                <a href="bunchahanoi.html">
+                    <div id="bunrieucua">
+                        <img src="https://hanacooky.com/wp-content/uploads/2020/08/B%C3%BAn-Ch%E1%BA%A3-H%C3%A0-N%E1%BB%99i-4-667x889.jpg" height="250px">
+                    </div>
+                    <h4>Bún Chả Hà Nội</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1408)</p>
+                    </div>
+                    <p>50.000 VND</p>
+                </a>
+              
+            </div>
+            <div class="col-4">
+                <a href="bundaumamtom.html">
+                    <img src="https://hoangviettravel.vn/wp-content/uploads/2020/12/06bun-dau-mam-tom-ngon-o-ha-noi-1.jpg" height="250px">
+                    <h4>Bún đậu mắm tôm<menu></menu></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1204)</p>
+                    </div>
+                    <p>70.000 VND</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="bunbohue.html">
+                    <img src="https://nghienbep.com/media/C%C3%B4ng-Th%E1%BB%A9c-C%C3%A1ch-n%E1%BA%A5u-m%C3%B3n-b%C3%BAn-b%C3%B2-gi%C3%B2-heo.jpg" height="250px">
+                    <h4>Bún Bò Giò Heo</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(790)</p>
+                    </div>
+                    <p>55.000 VND</p>
+                </a>
+               
+            </div>
+            <div class="col-4">
+                <a href="bunbohue.html">
+                    <img src="https://i.pinimg.com/originals/ac/10/20/ac10207a69ba85b7f8e8b3705a700144.png" height="250px">
+                    <h4>Bún Thịt Nướng</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(990)</p>
+                    </div>
+                    <p>60.000 VND</p>
+                </a>
+               
+            </div>
+            <div class="col-4">
+                <a href="bunbohue.html">
+                    <img src="https://giadungnhaviet.com/wp-content/uploads/2020/08/cach-nau-bun-ca-ro-dong-tai-nha-ngon-va-don-gian-11-1024x1024.jpg" height="250px">
+                    <h4>Bún Cá</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1010)</p>
+                    </div>
+                    <p>40.000 VND</p>
+                </a>
+               
+            </div>
+            <div class="col-4">
+                <a href="bunbohue.html">
+                    <img src="https://www.cooking-therapy.com/wp-content/uploads/2018/09/Bun-Rieu-4.jpg" height="250px">
+                    <h4>Bún Riêu</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1120)</p>
+                    </div>
+                    <p>50.000 VND</p>
+                </a>
+               
+            </div>
+            <div class="col-4">
+                <a href="bunbohue.html">
+                    <img src="https://dacsanvietnam.co/wp-content/uploads/2020/08/65980584_28102019-768x725.jpg" height="250px">
+                    <h4>Bún Ốc</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <p>(1504)</p>
+                    </div>
+                    <p>40.000 VND</p>
+                </a>
+               
+            </div>
+        </div>
+    </div>  
+</div>
+</div>
+<div class="small-container">
+    <div id="best-seller">
+        <h2 class="title">Bán&nbsp; Chạy &nbsp;Nhất</h2>
+    </div>
+    
+    <div class="row">
+        <div class="col-4">
+            <a href="comga.html">
+                <img src="https://comtamtuonghan.vn/wp-content/uploads/2020/09/com-tam-dui-ga-quay-nuong-1.png" height="250px">
+                <h4>Cơm Gà</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <p>(1520)</p>
+                </div>
+                <p>45.000 VND</p>
+            </a>
+           
+        </div>
+       
+        <div class="col-4">
+            <a href="bunchahanoi.html">
+                <img src="https://hanacooky.com/wp-content/uploads/2020/08/B%C3%BAn-Ch%E1%BA%A3-H%C3%A0-N%E1%BB%99i-4-667x889.jpg" height="250px">
+            <h4>Bún Chả Hà Nội</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <p>(1408)</p>
+            </div>
+            <p>50.000 VND</p>
+            </a>
+            
+        </div>
+    </div>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://comtamcali.com/images/slider3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://comtamcali.com/images/slider1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://comtamtuonghan.vn/wp-content/uploads/2022/02/BANNER-1-1-1024x576.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://monngondongian.com/wp-content/uploads/2019/04/bat-bun-bo-hue-dam-da-huong-vi.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div id="Thanh-Lap">
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="http://amthucvietnam.com.vn/wp-content/uploads/2018/01/logo-amthucvietnam2.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                       <h1 >
+                            Thành Lập
+                       </h1>
+                        <p style="font-size: 20px">
+                            Quán được thành lập từ những năm 2002 . Đến nay đã có 20 chi nhánh rộng khắp thành phố Hồ Chí Minh. Luôn đảm bảo nguồn nguyên 
+                          liệu tươi ngon. Giá cả hợp lý đem tới sự hài lòng cho mọi thực khách 
+                        </p>
+                       <br>
+                       <a href="sell.html" class="btn">MUA NGAY &#8594;</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div id="menu-search">
+        <h2 style="text-align: center;">Menu Tìm Kiếm</h2>
+    </div>
+    <div class="row">
+      <div class="left" style="background-color:orange">
+        <h2 style="color: #000;">Menu</h2>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+        <ul id="myMenu">
+          <li><a href="comga.html">Cơm Gà</a></li>
+          <li><a href="com.html">Cơm Sườn Bì Chả</a></li>
+          <li><a href="comtambinhdan.html">Cơm Nhà Dân Giả</a></li>
+          <li><a href="">Cơm thịt xá xíu </a></li>
+          <li><a href="">Cơm tấm niêu bò đảo </a></li>
+          <li><a href="">Cơm Chiên Hải Sản</a></li>
+          <li><a href="">Cơm Heo Quay</a></li>
+          <li><a href="">Cơm Chiên Chảo Sườn</a></li>
+          <li><a href="bunbohue.html">Bún Bò Huế</a></li>
+          <li><a href="bunchahanoi.html">Bún Chả Hà Nội</a></li>
+          <li><a href="bundaumamtom.html">Bún Đậu Mắm Tôm</a></li>
+          <li><a href="">Bún Bò Giò Heo</a></li>
+          <li><a href="">Bún Thịt Nướng</a></li>
+          <li><a href="">Bún Cá</a></li>
+          <li><a href="">Bún Riêu</a></li>
+          <li><a href="">Bún Ốc</a></li>
+
+        </ul>
+      </div>
+      
+      <div class="right" style="background-color:#000;">
+        <h2 style="color: #fff;">Hình Ảnh</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://comtamcali.com/images/slider3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://comtamcali.com/images/slider1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://comtamtuonghan.vn/wp-content/uploads/2022/02/BANNER-1-1-1024x576.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <script>
+            function myFunction() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("mySearch");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myMenu");
+              li = ul.getElementsByTagName("li");
+              for (i = 0; i < li.length; i++) 
+              {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } else {
+                  li[i].style.display = "none";
+                }
+              }
+            }
+            </script>
+    <div class="testmonital">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Còn tình cảm nào chân thành hơn tình yêu dành cho thức ăn</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.6435-9/86176941_1051585361862003_6680448473579388928_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=4cUB_G1JtgoAX_vPWX6&tn=vecw4dL2m74JwLUq&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT8xQ81dsLR_WEAoAcBbH8qRLPYeiQ1BjD0BN-Ctg1cVVw&oe=62D3076B">
+                    <h3> Mr. Nham Ngo</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Người thích ăn uống luôn luôn là những người tốt nhất</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/167940276_1256919554702370_4101933876178000551_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=cRw3ORymZrEAX89rcVq&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-1Ulr0rPl2zrjcwf1ojM3eCoF4wXOLhtooBAoV8_3mug&oe=62D628E3">
+                    <h3>Mr. Van Quan</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Đồ ăn chính là biểu tượng của tình yêu khi ta không tìm ra từ ngữ nào để diễn tả</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/284589855_193276463026544_8287372065580924399_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=epthTvcUnFQAX836IWo&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT8fsR8ZQ9jW9kXqtnX2fOr8gJRrJ1F5Z4dFsT3Sb3BS1g&oe=62B48381">
+                    <h3>Ms. Thao Nguyen</h3>
+                </div>
+				<div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Sang trọng, lịch sử, giá cả hài lòng, phục vụ rất tốt,...</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/284986048_3875736499318535_354219563691389036_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=HdwaHnPqvwsAX_7r0Vc&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT9rB-l2HU3dS9HwMDAdGNmQEwlslTWN5WbBLDB4hkI_WA&oe=62B4F539">
+                    <h3>Mr. Thai Binh</h3>
+                </div>
+				<div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Thái độ phục vụ niềm nở, đồ ăn ngon, không gian tiệc cưới đẹp và sang trọng.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/166006450_1652490925141006_4315395091413832007_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=mDbq-OWYFvEAX8c5LDe&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-5HXK9cRNuoWsBqTCDpZbM54yEk94a26vMLrGyuoY2vg&oe=62D5B3C5">
+                    <h3>Mr. Van Trong</h3>
+                </div>
+				<div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>– Nhà hàng phục vụ nhiệt tình, chu đáo
+Thực phẩm đảm bảo vệ sinh, thức ăn ngon miệng
+Mặt bằng không gian rộng rãi, thoáng đãng, sạch sẽ
+
+</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+                    </div>
+                    <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/287745883_1281189205752494_113719609773222010_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=KPKyPbCE7WsAX9rOuk8&_nc_ht=scontent.fsgn2-4.fna&oh=03_AVKML865q7m-90yF3skvAS5koAUgW6d-zbtSumopueoRlA&oe=62D49EB6">
+                    <h3>Mr. Thanh Phat</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="steps" >
+        <div class="box">
+            <img src="https://i.pinimg.com/originals/ff/c3/d3/ffc3d3f7e25c28ea2d3fe42231736f00.png">
+            <h3>Chọn món ăn yêu thích của bạn</h3>
+        </div>
+        <div class="box">
+            <img src="https://w7.pngwing.com/pngs/534/248/png-transparent-pizza-delivery-food-business-service-pizza-retail-hand-payment.png">
+            <h3>Freeship Và Vận Chuyển 24h</h3>
+        </div>
+        <div class="box">
+            <img src="https://png.pngtree.com/png-clipart/20191027/ourlarge/pngtree-payment-icon-png-image_1842637.jpg">
+            <h3>Phương Thức Thanh Toán Dễ Dàng</h3>
+        </div>
+        <div class="box">
+            <img src="https://png.pngtree.com/png-clipart/20190921/original/pngtree-eat-food-micro-fat-girl-hamburger-donut-png-image_4699781.jpg">
+            <h3>Tận Hưởng Và Thưởng Thức Món Ăn</h3>
+        </div>
+    </section>
+   
+
+    <div class="footer">
+            <div id="link-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Dowload App</h3>
+                            
+                            <div class="app-logo">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/App_Store_%28iOS%29.svg/512px-App_Store_%28iOS%29.svg.png">
+                                <img src="https://bizweb.dktcdn.net/100/420/160/products/4185627-app-bo-chuyen-doi-tieng-viet-app-2-300x300.png?v=1623045430233">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                           
+                            <img src="http://amthucvietnam.com.vn/wp-content/uploads/2018/01/logo-amthucvietnam2.png" ">
+                            <p>
+                                Dowload App
+                            </p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Liên Hệ</h3>
+                            <ul>
+                                <a href="https://www.google.com/intl/vi/gmail/about/">
+                                    <li style="color: #fff;">
+                                        Gmail
+                                    </li>
+                                </a>
+                                <a href="">
+                                    <li style="color: #fff;margin-top: 10px;">
+                                      HotLine: 0969669969
+                                    </li>
+                                </a>
+                               
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Mạng Xã Hội</h3>
+                            <ul>
+                                <a href="https://www.facebook.com/binh.b.bu.7">
+                                    <li style="color:#fff">
+                                        FaceBook
+                                    </li>
+                                </a>
+                                <a href="https://www.instagram.com/comgagaysom_tankytanquy/">
+                                    <li style="color: #fff; margin-top: 10px;"> Instagram</li>
+                                </a>
+                                
+                                <a href="https://www.youtube.com/watch?v=eIKEuh2eevM" >
+                                    <li style="color: #fff;margin-top: 10px;">Youtube</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                   <hr>
+                </div>
+            </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
+
